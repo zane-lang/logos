@@ -25,8 +25,9 @@ Link to the SVG on `main` to always show the current logo, for example
 ## Rendering PNGs
 
 [`batch-export.py`](batch-export.py) renders an SVG at the four sizes into a
-`render/` folder next to it, using [resvg](https://github.com/linebender/resvg)
-(`pip install --user resvg-cli`):
+`render/` folder next to it, using [resvg](https://github.com/linebender/resvg).
+Install it with `pip install resvg-cli` in a virtual environment, or put the
+`resvg` binary on your `PATH`:
 
 ```sh
 python3 batch-export.py zane/zane.min.svg
